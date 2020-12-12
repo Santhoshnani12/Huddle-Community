@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+
+.header {
+    margin: 0 120px 0 120px;
+    padding: 50px 0 50px 0;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header-img {
+	float: left;
+	width: 15%;
+}
+
+.header-btn {
+	background-color: white;
+	color: #ff52bf;
+	float: right;
+	margin-top:7px; 
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.first-container {
+	width: 50%;
+	margin: 70px auto 70px auto;
+}
+
+.first-container h1{
+	font-weight: bold;
+	font-size:2em;
+	font-family: "Times New Roman",serif;
+	letter-spacing: 2px;
+}
+
+.first-container p {
+	width:70%;
+	margin: 20px auto 80px auto;
+}
+
+.first-btn, .last-but-one-container button{
+	border:none;
+	border-radius: 20px;
+	background-color: #ff52bf;
+	color: white;
+	margin: 20px;
+    padding: 15px;
+    width:250px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.first-container img {
+	width: 100%;
+}
+
+.fas {
+	font-size: 50px;
+	color: #ff52bf;
+}
+
+.box {
+	background-color: red;
+	position: relative;
+	margin: 50px 0 50px 0;
+}
+
+.box1 {
+    position: absolute;
+    left: 130px;
+}
+.box2 {
+    position: absolute;
+    right: 130px;
+}
+.box h1 {
+	font-weight: bold;
+	font-size:2em;
+}
+.box p {
+	width:100%;
+	color: lightgrey;
+}
+
+.middle-container {
+	margin-top:300px;
+}
+
+.middle-container img {
+    width: 40%;
+}
+
+.middle-box1 {
+    margin: 90px
+}
+
+.middle-box2 {
+    margin: 90px;
+}
+
+.middle-box3 {
+    margin: 90px;
+}
+.middle-box1	img, .middle-box3 img {
+	float: left;
+	margin-right: 50px;
+}
+
+.box-text {
+	padding: 80px 0 80px 0;	
+	text-align: left;
+}
+
+.middle-box2 img{
+	float:right;
+	margin-right: 50px;
+}
+
+.last-but-one-container {
+	margin: 250px auto 150px auto;
+}
+
+.bottom {
+	background-color: #00252e;
+	height: 150px;
+	width: 100%;
+	position: relative;
+	padding: 80px;
+	text-align: left;
+	color: white;
+}
+
+.first-bottom {
+	width: 30%;
+    position: absolute;
+}
+
+.second-bottom {
+	width: 30%;
+	position: absolute;
+	right: 305px;
+	top:  15px;
+}
+
+.text-bottom-cell {
+	padding: 5px;
+	border-radius: 5px;
+
+}
+
+.btn-bottom
+ {
+ 	border:none;
+	border-radius: 5px;
+	background-color: #ff52bf;
+    padding: 6px;
+    margin-left: 5px;
+    width:100px;
+    font-size: 1em;
+ }
